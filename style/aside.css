@@ -1,0 +1,154 @@
+aside {
+   color: #fff;
+   width: 300px;
+   padding-left: 20px;
+   height: 100vh;
+   background-image: linear-gradient(30deg, #B2EBF2, #B2EBF2);
+   border-top-right-radius: 80px;
+}
+
+p {
+   font-size: 25px;
+   color: #00796B;
+}
+
+aside a {
+   font-size: 21px;
+   color: #00796B;
+   display: block;
+   padding: 18px;
+   padding-left: 30px;
+   text-decoration: none;
+   -webkit-tap-highlight-color: transparent;
+}
+
+aside a:hover {
+   color: #00796B;
+   background: #fff;
+   outline: none;
+   position: relative;
+   background-color: #fff;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+
+aside a i {
+   margin-right: 5px;
+}
+
+aside a:hover::after {
+   content: "";
+   position: absolute;
+   background-color: transparent;
+   bottom: 100%;
+   right: 0;
+   height: 35px;
+   width: 35px;
+   border-bottom-right-radius: 18px;
+   box-shadow: 0 20px 0 0 #fff;
+}
+
+aside a:hover::before {
+   content: "";
+   position: absolute;
+   background-color: transparent;
+   top: 38px;
+   right: 0;
+   height: 35px;
+   width: 35px;
+   border-top-right-radius: 18px;
+   box-shadow: 0 -20px 0 0 #fff;
+}
+
+aside p {
+   margin: 0;
+   padding: 40px 0;
+}
+
+body {
+   display: flex;
+   font-family: 'Roboto';
+   width: 100%;
+   height: 100vh;
+   margin: 0;
+}
+
+form {
+   grid-template-columns: 1fr 1fr;
+   gap: 15px;
+   max-width: 400px;
+   margin: 0 auto;
+}
+
+label {
+   display: block;
+   margin-bottom: 5px;
+   color: #333;
+}
+
+input {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 15px;
+   box-sizing: border-box;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+input[type="submit"] {
+   background-color: #333;
+   color: #fff;
+   cursor: pointer;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+}
+
+#edit_form {
+   padding: 20px;
+   border: 1px solid black;
+   border-radius: 50px;
+   background-color: #06a592;
+}
+
+input[type="submit"]:hover {
+   background-color: #555;
+}
+
+.content {
+   margin: 20px;
+   padding: 20px;
+   background-color: #E0F7FA;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   width: 80%;
+   height:auto;
+   margin: 0 auto;
+}
+
+.content {
+   margin: 20px;
+   padding: 20px;
+}
+
+
+h2,
+h3 {
+   color: #00796B;
+}
+
+div {
+   margin-top: 20px;
+   padding: 15px;
+   background-color: #B2EBF2;
+   border: 1px solid #009688;
+   border-radius: 5px;
+}
+
+span {
+   color: #004D40;
+}
+
+.show-user-item {
+   margin-bottom: 10px;
+}
